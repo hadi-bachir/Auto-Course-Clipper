@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "course-clipper"
+version = "1.0.0"
+description = "Watch the clipboard and turn every course record you copy into a clean CSV row"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["clipboard", "csv", "scraping", "data-collection", "windows"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Topic :: Office/Business :: Financial :: Spreadsheet",
+    "Topic :: Utilities",
+]
+dependencies = ["pyperclip>=1.8.2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+course-clipper = "save_clips:main"
+
+[tool.setuptools]
+py-modules = ["save_clips"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

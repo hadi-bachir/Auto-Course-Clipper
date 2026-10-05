@@ -1,0 +1,26 @@
+# collected data - never commit this
+records.md
+records.csv
+rejected.md
+
+# Excel lock files
+~$*.csv
+~$*.md
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# environments
+.venv/
+venv/
+env/
+
+# editors
+.vscode/
+.idea/
+*.swp
