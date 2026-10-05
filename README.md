@@ -145,4 +145,4 @@ Validated on a 2,467-record collection across 22 universities.
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE).
