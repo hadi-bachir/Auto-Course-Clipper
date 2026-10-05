@@ -1,5 +1,7 @@
 # course-clipper
 
+[![tests](https://github.com/hadi-bachir/course-clipper/actions/workflows/tests.yml/badge.svg)](https://github.com/hadi-bachir/course-clipper/actions/workflows/tests.yml)
+
 Copy a record, get a clean CSV row. That's it.
 
 `saves every course record you copy to the clipboard as one row in a spreadsheet, so

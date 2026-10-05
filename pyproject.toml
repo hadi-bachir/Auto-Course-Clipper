@@ -9,6 +9,8 @@ description = "Watch the clipboard and turn every course record you copy into a 
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
+authors = [{ name = "Hadi Bachir" }]
+repository = "https://github.com/hadi-bachir/course-clipper"
 keywords = ["clipboard", "csv", "scraping", "data-collection", "windows"]
 classifiers = [
     "Environment :: Console",
